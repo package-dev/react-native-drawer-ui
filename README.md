@@ -3,6 +3,7 @@ Install:
 ```js
 npm install react-native-drawer-ui
 ```
+## Library only uses pure react native tags without native ios, android dependencies (solution for @react-navigation/drawer installation error)
 
 ```ts
 import React from 'react';
