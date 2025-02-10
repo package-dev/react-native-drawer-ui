@@ -4,7 +4,7 @@ Install:
 npm install react-native-drawer-ui
 ```
 ## Library only uses pure react native tags without native ios, android dependencies (solution for @react-navigation/drawer installation error)
-<img  width="200" height="400" src="https://github.com/phamha98/react-native-drawer-ui/blob/master/image.jpg">
+<img  width="200" height="400" src="https://github.com/phamha98/react-native-drawer-ui/blob/master/image.gif">
 
 ```ts
 import React from 'react';
