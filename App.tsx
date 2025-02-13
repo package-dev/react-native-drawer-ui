@@ -1,21 +1,9 @@
 import React from 'react'
 import { Dimensions, Text, View } from 'react-native'
-
-
 import DrawerLayout from './index'
 import { createStackNavigator } from '@react-navigation/stack'
 
 const { Screen, Navigator } = createStackNavigator()
-
-
-export default function DrawerApp() {
-    return (
-        <Navigator screenOptions={{ headerShown: false }}  >
-            <Screen name='App' component={App} />
-        </Navigator>
-    )
-}
-
 
 export function App() {
     return (
@@ -33,6 +21,14 @@ export function App() {
     )
 }
 
+
+export default function DrawerApp() {
+    return (
+        <Navigator screenOptions={{ headerShown: false }}  >
+            <Screen name='App' component={App} />
+        </Navigator>
+    )
+}
 
 function Menu() {
     return (
