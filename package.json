@@ -1,7 +1,7 @@
 {
   "name": "react-native-drawer-ui",
-  "version": "1.0.4",
-  "repository": "https://github.com/phamha98/react-native-drawer-ui",
+  "version": "1.0.5",
+  "repository": "https://github.com/package-dev/react-native-drawer-ui",
   "description": "react-native-drawer-ui",
   "author": "phamha98",
   "main": "index.tsx",
